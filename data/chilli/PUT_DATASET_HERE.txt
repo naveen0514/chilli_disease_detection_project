@@ -1,0 +1,17 @@
+Put your class folders here, for example:
+
+chilli/
+  healthy/
+    image1.jpg
+  bacterial_spot/
+    image2.jpg
+  leaf_curl/
+    image3.jpg
+  leaf_spot/
+    image4.jpg
+  whitefly/
+    image5.jpg
+  yellowing/
+    image6.jpg
+
+The training script automatically uses folder names as labels.

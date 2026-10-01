@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef7ee;
+}
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: min(600px, 90%);
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.12);
+  text-align: center;
+}
+.preview {
+  display: block;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.result {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #eef8ee;
+}
+.error {
+  color: #b00020;
+  margin-top: 15px;
+}
